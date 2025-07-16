@@ -1,25 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>My Web Page</title> <style>
+
+<!DOCTYPE html>                        <!-- Declaration. It must be the vary firat thing in our html document -->
+<html lang="en">                       <!-- Root Element -->
+<head>                                 <!-- Document Metadata  -->
+    <meta charset="utf-8">             <!-- Metadata  [charset: Character Encoding] -->
+    <meta name="My Home:" content="">
+    <meta name="Description:" content="This is a sample application to learn HTML tags">
+    <title>This is sample Page</title>         <!-- Page Title  -->
+    <style>                              /* Metadata  [charset: Character Encoding]  */
         /* CSS / Styling */
         h1 {
             font-size: 30px;
             color: #ff5733;
         }
     </style>
+    <link rel="stylesheet" href="style.css">    <!-- Links an external resources (most commonly a stylesheet) -->
 </head>
 <body>
-    <h1>Hello</h1>
-    <p>this is sample text</p>
+    <h1>Hello</h1>                              <!--Defines different level if headers -->
+    <h6> Hello</h6>
+
+    <p>this is sample text</p>                  <!-- Defines a paragraph of text -->
     <p>This is 2nd line</p>
     <p>This is 3rd line</p>
 
-    this is 4th line
-    <br>
+    <strong>this is 4th line</strong>          <!-- Indicates strong importance for its content (typically rendered as bold) -->
+    <br>                                        <!-- Line Break: Inserts a single line break (Empty Tag) -->
     this is 5th line
-    
+
+
+    <p>In Unix-like operating systems, a shebang is the character sequence #! (a hash symbol followed by an exclamation mark) at the beginning of a script.<br> It's used to specify the interpreter that should execute the script. It's also <b>known</b> as a <strong>hashbang</strong>, sharp-exclamation, pound-bang, or hash-pling.</p>
+    <hr>                                    <!-- Horizontal Line to display as a horizontal rule  (Empty Tag) -->
+    <p>Looking for some already great color combinations? Our color chart features flat design colors, Google's Material design scheme and the classic web safe color palette, all with Hex color codes.</p>
+
+    <p>Benefits:
+Convenience:
+Makes scripts executable without specifying the interpreter on the command line.
+Portability:
+<em>Using #!/usr/bin/env python can make the script more portable as it finds the python executable in the user's environment, rather than relying on a specific path.
+Limitations:</em>
+
+Operating <em>System</em>   <i>System</i> Dependent: Shebangs are primarily used in Unix-like systems and are ignored by Windows unless using compatibility layers like WSL.
+Interpreter Path: If the interpreter path changes, the shebang line may need to be updated.
+</p>
+
+  <em>System</em>    <!-- Emphasize its content (Typically rendered as italics) -->
 
     <script>
         /* Javascript */
@@ -27,5 +51,7 @@
         // For example:
          console.log("Hello from Sayed");
     </script>
+
+    <script type="javascript" src="code.js"></script>
 </body>
 </html>
